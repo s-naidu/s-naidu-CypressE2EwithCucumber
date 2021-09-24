@@ -1,0 +1,23 @@
+{
+  "name": "cypresse2ewithcucumber",
+  "version": "1.0.0",
+  "description": "cypress2e2withcucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-naidu/CypressE2EwithCucumber.git"
+  },
+  "author": "sudarshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-naidu/CypressE2EwithCucumber/issues"
+  },
+  "homepage": "https://github.com/s-naidu/CypressE2EwithCucumber#readme",
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  }
+}
