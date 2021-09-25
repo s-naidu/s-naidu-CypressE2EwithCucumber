@@ -1,2 +1,6 @@
-"# CypressE2EwithCucumber" 
 node_modules
+cypress/report
+cypress/screenshots
+cypress/videos
+cypress/cucumber-json
+cypress/downloads

@@ -19,5 +19,20 @@
   "dependencies": {
     "cypress": "^8.4.1",
     "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "./cypress/integration/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   }
 }
